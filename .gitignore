@@ -1,0 +1,22 @@
+# 数据文件不入库
+*.csv
+!UserBehavior_2025.csv
+*.xlsx
+*.xls
+~$*
+
+# 输出图可以保留
+!output/*.png
+
+# 系统
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+.vscode/
